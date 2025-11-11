@@ -1,0 +1,11 @@
+def privet():
+    print('Привет, воин!')
+    print('Как тебя зовут?\n')
+    my_name = input()
+    print(f'Ты наша надежда, {my_name}')
+    print('Длина твоего имени равна: ')
+    print(len(my_name))
+    print('Сколько тебе лет?')
+    my_age = input()
+    print('Тебе будет ' + str(int(my_age) + 1) + ' в  году')
+privet()
